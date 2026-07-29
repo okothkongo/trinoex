@@ -5,7 +5,7 @@ defmodule Trinoex.MixProject do
     [
       app: :trinoex,
       version: "0.1.0",
-      elixir: "~> 1.20",
+      elixir: "~> 1.18",
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
       deps: deps(),
